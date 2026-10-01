@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+    
+    
+    <path d="
+      M 60.2 178.4
+      L 60.2 68.6
+      L 125.0 34.4
+      L 189.8 68.6
+      L 189.8 178.4
+      L 153.8 178.4
+    " fill="none" stroke="#1C3E4A" stroke-width="13.5"
+      stroke-linecap="square" stroke-linejoin="miter"/>
+    
+    <path d="
+      M 83.6 178.4
+      L 83.6 102.8
+      L 117.8 115.4
+      L 117.8 178.4
+      Z
+    " fill="#B67F49"/>
+    <circle cx="110.276" cy="140.6" r="1.6199999999999999" fill="#FFFFFF"/>
+    
+    <text x="260" y="132" font-family="Inter Display, Inter, Arial, sans-serif"
+      font-size="82" font-weight="700" letter-spacing="0.8"
+      fill="#1C3E4A">PLATZMACHER</text>
+    
+    </svg>

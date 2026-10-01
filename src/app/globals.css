@@ -1,0 +1,45 @@
+@import "../styles/platzmacher-tokens.css";
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--surface-page);
+  --color-foreground: var(--text-strong);
+  --font-serif: var(--font-display);
+}
+
+body {
+  background: var(--surface-page);
+  color: var(--text-body);
+  font-family: var(--font-sans);
+}
+
+@keyframes hero-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(var(--hero-reveal-distance));
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-reveal-text {
+  --hero-reveal-distance: var(--space-3);
+
+  animation: hero-reveal var(--dur-slow) var(--ease-out) both;
+}
+
+.hero-reveal-media {
+  --hero-reveal-distance: var(--space-4);
+
+  animation: hero-reveal var(--dur-slow) var(--ease-out) var(--dur-fast) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-reveal-text,
+  .hero-reveal-media {
+    animation: none;
+  }
+}

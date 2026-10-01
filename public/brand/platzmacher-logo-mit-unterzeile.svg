@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1350" height="250" viewBox="0 0 1350 250">
+    
+    
+    <path d="
+      M 61.6 192.2
+      L 61.6 76.30000000000001
+      L 130.0 40.2
+      L 198.4 76.30000000000001
+      L 198.4 192.2
+      L 160.4 192.2
+    " fill="none" stroke="#1C3E4A" stroke-width="14.25"
+      stroke-linecap="square" stroke-linejoin="miter"/>
+    
+    <path d="
+      M 86.30000000000001 192.2
+      L 86.30000000000001 112.4
+      L 122.4 125.7
+      L 122.4 192.2
+      Z
+    " fill="#B67F49"/>
+    <circle cx="114.45800000000001" cy="152.3" r="1.71" fill="#FFFFFF"/>
+    
+    <text x="275" y="135" font-family="Inter Display, Inter, Arial, sans-serif"
+      font-size="82" font-weight="700" letter-spacing="0.8"
+      fill="#1C3E4A">PLATZMACHER</text>
+    
+    <text x="277" y="169" font-family="Inter, Arial, sans-serif"
+      font-size="16" font-weight="600" letter-spacing="2.4"
+      fill="#1C3E4A">ENTRÜMPELUNG · HAUSHALTSAUFLÖSUNG · RÄUMUNG</text>
+    
+    </svg>
